@@ -1,0 +1,25 @@
+{
+  "name": "customer-portal-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./start-server.ps1",
+    "start:direct": "node server.js",
+    "start:win": "start-server.bat",
+    "hash-passwords": "node scripts/hash-passwords.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.2",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.3.0",
+    "helmet": "^6.0.1",
+    "lowdb": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nanoid": "^4.0.2",
+    "uuid": "^13.0.0"
+  }
+}

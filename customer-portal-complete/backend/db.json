@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "ybrmxeyCQOzrpSanmXOaF",
+      "fullName": "Elijah",
+      "idNumber": "0401156418089",
+      "accountNumber": "1234567890",
+      "password": "$2a$10$sTr66n98jGwmjxUoAoZ2guS55Ce7KN5DKS4cmo6Di35uNI2FEYQ2O",
+      "role": "customer",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "isActive": true,
+      "lastLogin": "2025-10-16T16:20:39.939Z",
+      "createdAt": "2025-10-11T21:17:39.386Z"
+    },
+    {
+      "id": "meHZznG-kAPtv5F1XCG0J",
+      "fullName": "Reneiloe",
+      "idNumber": "0307195275085",
+      "accountNumber": "12345678900",
+      "password": "$2a$10$hzIiBvXYQ1ONvIg53v2XfurCyL9oagMR4cYZXjlXlKRMh7UHGAGXu",
+      "role": "customer",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "isActive": true,
+      "lastLogin": null,
+      "createdAt": "2025-10-11T21:29:33.019Z"
+    },
+    {
+      "id": "BYqKU6mGAtmegyNJ6kZbp",
+      "fullName": "Reneiloe",
+      "idNumber": "0307195275085",
+      "accountNumber": "123456789",
+      "password": "$2a$10$9vS93LZPzlz.MR3QeYAope31Ugiqt4akaz/ln.hIwfqZUEi5H.ope",
+      "role": "customer",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "isActive": true,
+      "lastLogin": "2025-10-16T16:26:44.128Z",
+      "createdAt": "2025-10-16T16:23:25.436Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "4K4N9Pk4RVgXWjeIs9Pqm",
+      "userId": "ybrmxeyCQOzrpSanmXOaF",
+      "amount": "1000",
+      "currency": "EUR",
+      "provider": "SWIFT",
+      "payeeAccount": "1234567890",
+      "swift": "DEUTDEFFXXX",
+      "payeeName": "Unknown",
+      "description": "Payment transaction",
+      "status": "pending",
+      "createdAt": "2025-10-11T21:25:19.535Z",
+      "updatedAt": "2025-10-11T21:25:19.535Z"
+    },
+    {
+      "id": "zV1vmP8xiP5sFMbFkAhpP",
+      "userId": "ybrmxeyCQOzrpSanmXOaF",
+      "amount": "1",
+      "currency": "USD",
+      "provider": "SWIFT",
+      "payeeAccount": "12345678900",
+      "swift": "DEUTDEFFXXX",
+      "payeeName": "Rene",
+      "description": "Cash",
+      "status": "pending",
+      "createdAt": "2025-10-11T21:30:28.482Z",
+      "updatedAt": "2025-10-11T21:30:28.482Z"
+    },
+    {
+      "id": "WycsTf0oPw3D_jRB-1gTY",
+      "userId": "ybrmxeyCQOzrpSanmXOaF",
+      "amount": "100",
+      "currency": "GBP",
+      "provider": "SWIFT",
+      "payeeAccount": "1234567890",
+      "swift": "DEUTDEFFXXX",
+      "payeeName": "Unknown",
+      "description": "Payment transaction",
+      "status": "pending",
+      "createdAt": "2025-10-16T16:22:35.830Z",
+      "updatedAt": "2025-10-16T16:22:35.830Z"
+    },
+    {
+      "id": "mgbQFqckNpkE75ocvrJ_N",
+      "userId": "BYqKU6mGAtmegyNJ6kZbp",
+      "amount": "200",
+      "currency": "GBP",
+      "provider": "SWIFT",
+      "payeeAccount": "1234567890",
+      "swift": "DEUTDEFFXXX",
+      "payeeName": "Unknown",
+      "description": "Payment transaction",
+      "status": "pending",
+      "createdAt": "2025-10-16T16:25:50.818Z",
+      "updatedAt": "2025-10-16T16:25:50.818Z"
+    },
+    {
+      "id": "kt1qsg3OU0s2tiEhwTsjK",
+      "userId": "BYqKU6mGAtmegyNJ6kZbp",
+      "amount": "200",
+      "currency": "ZAR",
+      "provider": "SWIFT",
+      "payeeAccount": "1234567890",
+      "swift": "DEUTDEFFXXX",
+      "payeeName": "Unknown",
+      "description": "Payment transaction",
+      "status": "pending",
+      "createdAt": "2025-10-16T16:27:30.982Z",
+      "updatedAt": "2025-10-16T16:27:30.982Z"
+    }
+  ],
+  "systemSettings": {
+    "supportedCurrencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "ZAR",
+      "CAD",
+      "AUD"
+    ],
+    "supportedProviders": [
+      "SWIFT",
+      "SEPA",
+      "ACH",
+      "FEDWIRE"
+    ],
+    "maxTransactionAmount": 1000000,
+    "minTransactionAmount": 1,
+    "processingFees": {
+      "USD": 0.02,
+      "EUR": 0.015,
+      "GBP": 0.02,
+      "ZAR": 0.01
+    }
+  }
+}
